@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Configurar o middleware de sessão
 app.use(session({
-  secret: 'sua-chave-secreta-aqui', // Substitua por uma chave secreta forte
+  secret: 'sua-chave-secreta-aqui',
   resave: false,
   saveUninitialized: true,
 }));
